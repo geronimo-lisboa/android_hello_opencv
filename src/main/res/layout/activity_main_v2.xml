@@ -7,20 +7,24 @@
         android:id="@+id/IsOpenCVOk"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="IS OPEN CV OK?" />
+        android:text="IS OPEN CV OK?"
+        android:layout_gravity="center"/>
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Change Brightness" />
+        android:text="Change Brightness"
+        android:layout_gravity="center"/>
 
     <SeekBar
         android:id="@+id/sb_Brightness"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+
     <ImageView
         android:id="@+id/iv_image"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:src="@drawable/imagem"/>
 </LinearLayout>
